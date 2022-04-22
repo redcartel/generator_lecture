@@ -38,7 +38,7 @@ def pairwise_sum_generator(numlist):
     if len(numlist) > 1:
         for i in range(len(numlist)-1):
             # TODO: the next value yielded should be numlist[i] + numlist[i+1]
-            yield numlist[i] + numlist[i+1]
+            yield None
 
 # Example 3
 
